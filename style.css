@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(170, 173, 176);
+    text-align: center;
+}
+#count_body{
+    align-items: center;
+    justify-content: center;
+    /* align-content: center;
+    align-self: center; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    color: green;
+    font-weight: bold;
+    font-size:60px;
+}
+#count{
+    justify-content: center;
+    align-self: center;
+}
+#buttons{
+    align-items:center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 10px;
+}
+#increment {
+    color: black;
+    background-color: rgb(170, 173, 176);
+    border-radius: 5px;
+    border-color: black;
+    border-style:solid;
+    font-weight: bold;
+}
+
+#decrement {
+    color: black;
+    background-color: rgb(170, 173, 176);
+    border-radius: 5px;
+    border-color: black;
+    border-style:solid;
+    font-weight: bold;
+}
+
+#reset {
+    color: black;
+    background-color: rgb(170, 173, 176);
+    border-radius: 5px;
+    border-color: black;
+    border-style:solid;
+    font-weight: bold;
+}
+button:hover{
+    background-color: rgb(170, 173, 176, 0.132);
+    cursor: pointer;
+}
